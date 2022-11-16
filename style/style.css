@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 16px;
+}
+body{
+    background-color: #5F6472;
+}
+h1{
+    font-size: 40px;
+    color: #ffffff;
+    padding: 2%;
+}
+
+.navbox{
+    width: 14%;
+    padding-left: 2%;
+}
+.navbox h2{
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: #979797;
+}
+.navbox a{
+    color: #979797 ;
+}
+.navbox a:hover{
+    color: #ffffff;
+}
+.navbox li{
+    padding-bottom: 10px;
+}
+.navbox li:hover{
+    background-image: linear-gradient(90deg, rgba(45, 48, 56, 0) 22.92%, #2D3038 100%);
+    border-radius: 10px;
+}
+.mainbox{
+    width: 80%;
+    height: 70vh;
+    margin-left: 18%;
+    margin-top: -10%;
+    border-radius: 20px;
+    background-image: linear-gradient(124.01deg, #2D3038 0%, rgba(45, 48, 56, 0) 100%);
+}
+
+
+
+.mainbox h2{
+    padding-top: 2%;
+    padding-left: 4%;
+    font-size: 64px;
+    color: #ffffff;
+}
+.mainbox h3, .mainbox p{
+    padding-left: 4%;
+    color: #979797;
+}
+.mainbox p{
+    padding-top: 2%;
+    font-size: 18px;
+}
+.mainbox input{
+    height: 50px;
+    width: 20%;
+    border-radius: 10px;
+    padding-left: 1% ;
+}
+.inp{
+    margin-left: 4%;
+    margin-top: 1%;
+}
+h5{
+    color: #979797;
+    font-size: 26px;
+    padding-left: 4%;
+    padding-top: 1%;
+}
+label{
+    color: #ffffff;
+    font-size: 34px;
+    padding-left: 4%;
+    padding-top: 1%;
+}
